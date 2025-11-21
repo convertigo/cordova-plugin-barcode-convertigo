@@ -105,7 +105,7 @@ public class ManualInputFragment extends Fragment {
 					((ConvScannerActivity) getActivity()).finish(text, scanType);
 					return true;
 				} else {
-					Toast.makeText(getActivity(), "Veuillez saisir un CODIC, un EAN, ou un numÃ¯Â¿Â½ro de vente valide",
+					Toast.makeText(getActivity(), "Veuillez saisir un CODIC, un EAN, ou un numéro de vente valide",
 							Toast.LENGTH_LONG).show();
 
 					return true;
