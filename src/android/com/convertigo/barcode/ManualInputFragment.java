@@ -98,7 +98,7 @@ public class ManualInputFragment extends Fragment{
 				}
 				else
 				{
-					Toast.makeText(getActivity(), "Veuillez saisir un CODIC, un EAN, ou un numÃ¯Â¿Â½ro de vente valide", Toast.LENGTH_LONG).show();
+					Toast.makeText(getActivity(), "Veuillez saisir un CODIC, un EAN, ou un numéro de vente valide", Toast.LENGTH_LONG).show();
 
 					return true;
 				}
